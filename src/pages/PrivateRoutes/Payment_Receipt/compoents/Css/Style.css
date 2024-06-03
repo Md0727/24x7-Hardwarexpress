@@ -1,0 +1,63 @@
+.payment_recept_main {
+    width: 100%;
+    max-width: 738px;
+    margin: auto;
+    height: auto;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: var(--Shade-White, #FFF);
+    box-shadow: 0px 0px 5px 2px rgba(37, 36, 96, 0.40);
+}
+
+.logo_payment {
+    color: #252460;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    /* 18px */
+}
+
+.logo_payment img {
+    margin: auto;
+    padding-top: 20px;
+}
+
+.lsit_of_payment {
+    display: flex;
+    justify-content: space-between;
+    gap: 2;
+    padding: 30px 0;
+    border-bottom: 1px dotted #000;
+}
+
+.lsit_of_payment ul {
+    width: 49%;
+    display: flex;
+    gap: 2;
+    justify-content: space-between;
+}
+
+.lsit_of_payment ul li:first-child>div {
+    color: #0F161E;
+    text-align: left;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.lsit_of_payment ul li:last-child>div {
+    color: #0F161E;
+    text-align: right;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.lsit_of_payment.last-box ul {
+    width: 100% !important;
+}

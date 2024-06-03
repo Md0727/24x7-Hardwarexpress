@@ -1,0 +1,18 @@
+.Search_Filter  {
+    background-color: #fff;
+    border-radius: 0px;
+    text-align: right;
+    position: relative;
+    border: 1px solid #dedee1;
+}
+
+.Search_Filter fieldset {
+    border: 0;
+}
+.Search_Filter .loading_data {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 999;
+    background-color: red;
+}

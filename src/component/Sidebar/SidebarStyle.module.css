@@ -1,0 +1,21 @@
+.side_bar_box_main {
+    width: 54px;
+    height: 35px;
+    flex-shrink: 0;
+    position: fixed;
+    bottom: 0;
+    right: -100%;
+    height: calc(100vh - 110px);
+    z-index: 2;
+}
+
+.innerBoxSd {
+    width: 282px;
+    /* overflow: hidden; */
+    height: 100%;
+    flex-shrink: 0;
+    /* background: linear-gradient(180deg, rgba(209, 238, 241, 0.20) 0%, rgba(12, 137, 147, 0.20) 32.29%, rgba(37, 36, 96, 0.00) 100%); */
+    backdrop-filter: blur(47.5px);
+    padding: 30px 20px 20px 30px;
+    background-color: #a40001;
+}

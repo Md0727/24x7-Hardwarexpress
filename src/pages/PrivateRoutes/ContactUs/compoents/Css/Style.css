@@ -1,0 +1,81 @@
+.contect-us-form .heading{
+       display: flex;
+       justify-content: center;
+       font-size: 40px !important;
+       color: #000;
+}
+
+.contect-us-form .water-form h1{
+	font-weight: normal;
+	/* font-size: 40px !important; */
+	font-family: 'Raleway', sans-serif;
+	margin:  auto;
+	margin-top: 20px;
+	width: 500px;
+	/* color: rgb(0, 0, 0) !important; */
+	text-align: center;
+
+}
+
+.contect-us-form .contect-us-form #waterform{
+	height: 100%;	
+	background-color: #fcfcfc;
+	overflow: hidden;
+	position: relative;
+	
+}
+.contect-us-form #waterform{
+	margin: 0 auto;
+	width: 500px;
+	padding-top: 40px;
+	color: white;
+	position: relative;
+	
+	
+}
+.contect-us-form label, input, textarea{
+	display: block;	
+}
+.contect-us-form .formarea{
+margin-bottom: 15px;
+}
+.contect-us-form input, textarea{
+	width: 500px;	
+    height: 50px;
+	border: none;
+	border-radius: 10px;
+    border: 1px solid black;
+	padding: 10px;
+    outline: none;
+	font-size: 1em;
+	color: rgb(0, 0, 0) !important;
+    padding: 0 10px !important;
+	transition: border 0.5s;	
+	box-sizing:border-box;
+	
+}
+
+.contect-us-form input:focus, textarea:focus{
+	border : 2px solid #000000;	
+}
+
+.contect-us-form textarea{
+	height: 100px;	
+	resize: none; 
+    padding: 10px !important;
+	overflow: auto;
+}
+.contect-us-form input[type="submit"]{
+	background-color:rgb(32 59 107);
+	color: rgb(255, 255, 255) !important;
+	height: 50px;
+	cursor: pointer;
+	margin-top: 30px;
+    margin-bottom: 20px;
+	font-size: 1.29em;
+}
+.contect-us-form label{
+	font-size: 1.2em;
+	 margin-top: 15px;
+    color: black;
+}

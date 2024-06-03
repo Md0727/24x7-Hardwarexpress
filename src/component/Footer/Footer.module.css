@@ -1,0 +1,9 @@
+.footer_main {
+    /* width: 1280px; */
+    /* height: 478px; */
+    flex-shrink: 0;
+    /* background: linear-gradient(to bottom right, #0C8993 0%, #252460 50%) bottom right / 50% 50% no-repeat, linear-gradient(to bottom left, #0C8993 0%, #252460 50%) bottom left / 50% 50% no-repeat, linear-gradient(to top left, #0C8993 0%, #252460 50%) top left / 50% 50% no-repeat, linear-gradient(to top right, #0C8993 0%, #252460 50%) top right / 50% 50% no-repeat; */
+    /* background: radial-gradient(circle, rgba(12,137,147,0.9613970588235294) 4%, rgba(37,36,96,1) 76%); */
+    /* background: radial-gradient(circle, rgba(12,137,147,0.9866071428571429) 5%, rgba(37,36,96,1) 93%); */
+    background-color: #a40001;
+}

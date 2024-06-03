@@ -1,0 +1,15 @@
+.main_header {
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    display: none;
+}
+.main_headerDark {
+    background-color: #252460;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}

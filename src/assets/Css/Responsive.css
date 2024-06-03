@@ -1,0 +1,307 @@
+
+@media screen and (max-width: 1440px) {
+    /* Home Page Css */
+    .firstImage,.TwoImage,.ThreeImage{
+        display: none;
+    }
+    .FourthImage{
+        display: block;
+    }
+    .main_card_box{
+        width: 100% !important;
+    }
+    .price_box_x{
+        display: flex;
+        flex-direction: column !important;
+        flex-wrap: wrap;
+    }
+    .product_btn{
+        bottom: 0;
+        width: 100%;
+    }
+    .product_btn1{
+        font-size: 14px !important;
+        padding: 3px 0 !important;
+        width: 100%;
+    }
+    
+    
+}
+@media screen and (max-width: 1024px) {
+    /* Home Page Css */
+    .searchApp_box{
+        width: 95%;
+        margin: auto !important; 
+    }
+    .marque_parent{
+        margin-left: 15px !important;
+        margin-right: 15px !important;
+    }
+    .about_parent{
+        margin-left: 15px !important;
+        margin-right: 15px !important;
+       }
+    .firstImage,.TwoImage,.ThreeImage{
+        display: none;
+    }
+    .FourthImage{
+        display: block;
+    }
+   .card_img{
+    width: 100% !important;
+    max-width: 160px !important;
+    max-height: 200px; 
+   }
+
+    .home_btn{
+        font-size: medium !important;
+        padding: 8px 30px !important;
+        margin-bottom: 12px !important;
+    }
+     /* Furniture Page Css */
+    .Hot_deals-main,.recent-view-main,.funiture_main_container,.Plan_bySpace-main{
+        padding-left:8px ;
+        padding-right:8px ;
+    }    
+    .main_card_box{
+        width: 100% !important;
+    }
+    .price_box_x{
+        display: flex;
+        flex-direction: column !important;
+        flex-wrap: wrap;
+    }
+    .product_details_{
+        padding: 0 8px !important;
+        
+    }
+    .product_btn{
+        bottom: 0;
+        width: 100%;
+    }
+    .product_btn1{
+        font-size: 16px !important;
+        padding: 5px 0 !important;
+        width: 100%;
+    }
+    .overlay-gallery{
+        width: 23%;
+    } 
+    .images_box{
+        max-width: 100% !important;
+        width: 100%;
+    }
+    .about_child{
+        padding: 0;
+       }
+}
+@media screen and (max-width: 768px) {
+    /* Home Page Css */
+    .searchApp_box{
+        width: 95%;
+        margin: auto !important; 
+    }
+   .marque_parent{
+    margin-left: 15px !important;
+    margin-right: 15px !important;
+    font-size: small;
+   }
+   .about_parent{
+    margin-left: 15px !important;
+    margin-right: 15px !important;
+   }
+   .home_btn{
+    font-size: medium !important;
+    padding: 4px 15px !important;
+    margin-bottom: 12px !important;
+   }
+   .home_btn1{
+       display: flex;
+       flex-direction: column !important;
+   }
+   .card_img{
+    width: 100% !important;
+    max-height: 200px; 
+   }
+    .card_con{
+        max-width: 50% !important;
+    }
+    .firstImage,.TwoImage,.ThreeImage{
+        display: none;
+    }
+    .FourthImage{
+        display: block;
+    }
+    /* Furniture Page Css */
+    .Hot_deals-main,.recent-view-main,.funiture_main_container,.Plan_bySpace-main{
+        padding-left:6px ;
+        padding-right:6px ;
+    }
+
+    .main_card_box{
+        width: 100% !important;
+        gap: 15px 0;
+    }
+    .card_bx{
+        max-width: 185px;
+    }
+    .price_box_x{
+        display: flex;
+        flex-direction: column !important;
+        flex-wrap: wrap;
+    }
+    .product_details_{
+        padding: 0 8px !important;
+        
+    }
+    .product_btn{
+        bottom: 0;
+        width: 100%;
+    }
+    .product_btn1{
+        font-size: 16px !important;
+        padding: 5px 0 !important;
+        width: 100%;
+        margin-bottom: 0 !important;
+    }
+    
+    .card_bx{
+        margin-left: 5px;
+    }
+    .overlay-gallery{
+        width: 30%;
+    } 
+    .images_box{
+        max-width: 100% !important;
+        width: 100%;
+    }
+   
+   }
+   
+ @media screen and (max-width: 600px) {   
+    .card_bx{
+        max-width: 48% !important;
+    }
+
+
+
+}
+
+    @media screen and (max-width: 480px) {
+    /* Home Page Css */
+    .searchApp_box{
+        width: 95%; 
+        margin: auto !important;       
+    }
+    .home_btn{
+        font-size: small !important;
+        padding: 8px 30px !important;
+        margin-bottom: 12px !important;
+    }
+    .home_btn1{
+        display: flex;
+        flex-direction: column !important;
+    }
+    .card_img{
+        max-width: 100% !important;
+    }
+    .card_con{
+        max-width: 100% !important;
+    }
+    .overlay-gallery{
+        width: 46%;
+    } 
+    .images_box{
+        max-width: 100% !important;
+        width: 100%;
+    }
+    /* Product Details Page Css */
+    .product_details_{
+        padding: 0 8px !important;
+        
+    }
+    .product_details{
+        gap: 0.5rem !important;
+        display: flex;
+        flex-direction: column;
+    }
+    .product_details1{
+        width: 100% !important;
+    }
+    .product_details2{
+        width: 100% !important; 
+    }
+    .main_card_box{
+        width: 100% !important;
+        gap: 15px 0;
+    }
+    .card_bx{
+        max-width: 48% !important;
+    }
+    .product_all{
+        display: flex;
+        flex-direction: column;
+    }
+    .product_btn{
+        bottom: 0;
+        width: 100%;
+    }
+    .product_btn1{
+        font-size: 12px !important;
+        padding: 3px 7px !important;
+        width: 100%;
+        margin-bottom: 0 !important;
+    }
+    .price_box_x{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    /* .heading_sidebar{
+        display: flex;
+        justify-content: space-between;
+    } */
+    /* .sidebar_icon_{
+        display: flex;
+        justify-content: flex-end;
+    }
+    .sidebar_icon_par{
+        font-size: 30px !important;
+        margin-right: 200px; 
+        transition: margin-right 0.3s ease;
+    } */
+   
+    /* .listing_{
+        gap: 0 !important;
+    } */
+     
+    .listing_1{
+      display: none;
+     }
+    .cart_{
+        margin-top: 64px !important;
+    }
+    .cart_1{
+        margin-top: 16px !important;
+    }
+    .furniture_details_{
+        margin-top: 80px !important;
+    }
+   .about_parent{
+    margin: 0 !important;
+    padding: 32px 12px !important;
+   }
+   .contect-us-form input, textarea{
+    width: 100% !important;
+   }
+   #waterform{
+    width: 100% !important;
+    padding: 0 20px !important;
+   }
+}
+
+
+.login_user{
+    width: 100% !important;
+    height: 100% !important;
+}

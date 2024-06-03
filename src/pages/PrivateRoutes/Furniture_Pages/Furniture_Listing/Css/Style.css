@@ -1,0 +1,175 @@
+.product_Name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.product_Name_title {
+    display: inline-flex;
+    align-items: center;
+    gap: 30px;
+    margin: 40px 0;
+}
+
+.product_Name_title h2 {
+    color: #0C8993;
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.product_Name_title h3 {
+    color: #0C8993;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.images_box {
+    width: 100%;
+    max-width: 170px;
+    height: 107px;
+    flex-shrink: 0;
+}
+
+.images_box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card_bx {
+    width: 100%;
+    max-width: 170px;
+}
+
+.sfsdfjsdfjds-sfskdj {
+    color: #000;
+    text-align: left;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.main_card_box {
+    display: flex;
+    width: 998px;
+    height: auto;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 30px 30px;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.main_card_box_vendor {
+    display: flex;
+    width: 100%;
+    height: auto;
+    align-items: flex-start;
+    gap: 10px;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    justify-content: flex-start;
+    padding: 0 15px;
+}
+
+.sidebar_icon_par {
+    border: 1px solid #f1f0f0;
+    width: 35px;
+    min-height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.sidebar_icon_par svg {
+    color: #252460;
+}
+.side_hide, .side_show {
+    transition: 0.5s;
+}
+/* ============= add to cart icon css code ============= */
+@media only screen and (min-width: 481px) {
+    .side_hide {
+        display: block !important;
+    }
+    .sidebar_icon_par {
+        display: none !important;
+    }
+    .closeBtn {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .side_hide {
+        width: 0px !important;
+        position: fixed;
+        background-color: #fff !important;
+        height: 100vh;
+        left: -100%;
+        top: 0;
+        z-index: 10;
+        
+    }
+
+    .side_show {
+        position: fixed;
+        background-color: #fff !important;
+        height: 100vh;
+        left: 0;
+        top: 0;
+        z-index: 10;
+        width: 250px !important;
+    }
+
+    .closeBtn {
+        display: flex;
+        justify-content: end;
+        width: auto;
+        padding: 7px;
+        background-color: #fff;
+        border: 1px solid #d1d1d1;
+        position: absolute;
+        top: 0;
+        right: -31px;
+        z-index: 1;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .mobile_class {
+        padding: 5px 10px !important;
+        font-size: 12px;
+    }
+
+    .product_Name {
+        flex-direction: column;
+        justify-content: start;
+        align-items: flex-start;
+        gap: 5px;
+    }
+
+    .product_Name_title {
+        margin: 0 !important;
+    }
+
+    .product_Name_title h2 {
+        font-size: 14px;
+    }
+
+    .main_card_box {
+        width: 100%;
+        max-width: calc(998px - 60px);
+
+    }
+}
