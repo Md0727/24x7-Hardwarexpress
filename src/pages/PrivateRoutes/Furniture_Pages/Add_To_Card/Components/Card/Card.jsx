@@ -58,7 +58,7 @@ export const Card = () => {
                                 </h2>
                                 <ul role="list" className="divide-y divide-gray-200">
                                     {
-                                        CartProductList?.length > 0 ?  (
+                                        CartProductList?.length > 0 ? (
                                             CartProductList?.map((item, index) => (
                                                 <div className key={`cartproductlist${index}`}>
                                                     <li className="flex p-3 sm:py-6 shadow-lg">
@@ -75,19 +75,19 @@ export const Card = () => {
                                                                             </a>
                                                                         </h3>
                                                                     </div>
-                                                                    <div className="mt-1 flex text-sm">
+                                                                    <div className="mt-1 sm:flex text-sm">
                                                                         <p className="text-sm text-gray-500">
-                                                                            {item?.productId?.color ? item?.productId?.color : '---'}
+                                                                            {item?.productId?.color ? item?.productId?.color : 'N/A'}
                                                                         </p>
-                                                                        <p className="ml-4 border-l border-gray-200 pl-4 text-sm text-gray-500">
+                                                                        <p className="sm:ml-4 sm:border-l border-gray-200 sm:pl-4 text-sm text-gray-500">
                                                                             {item?.productId?.brand}
                                                                         </p>
                                                                     </div>
-                                                                    <div className="mt-1 flex items-end">
+                                                                    <div className="mt-1 sm:flex sm:items-end">
                                                                         <p className="text-xs font-medium text-gray-500 line-through">
-                                                                            $ {item?.productId?.totalPrice}
+                                                                            <span className='sm:ml-2'>$</span> <span>{item?.productId?.totalPrice}</span>
                                                                         </p>
-                                                                        <p className="text-sm font-medium text-gray-900 mr-2">&nbsp;&nbsp;$ {item?.productId?.price} </p>
+                                                                        <p className="text-sm font-medium text-gray-900 mr-2"><span className='sm:ml-2'>$</span> {item?.productId?.price} </p>
                                                                         {/* <p className="text-sm font-medium text-green-500">{item?.productId?.discount} {item?.productId?.isPercent ? '%' : '$'}Off</p> */}
                                                                     </div>
                                                                 </div>

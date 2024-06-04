@@ -20,9 +20,9 @@ export const Abouts = () => {
             />
             <div className="flex flex-wrap mb-10 py-16">
                 <div className="w-full sm:w-8/12 mb-10">
-                    <div className="container mx-auto h-full sm:p-10">
+                    <div className="sm:container sm:mx-auto h-full sm:p-10">
                         
-                        <header className="container px-4 lg:flex mt-10 items-center h-full lg:mt-0">
+                        <header className="sm:container px-4 lg:flex mt-10 items-center h-full lg:mt-0">
                             <div className="w-full">
                                 <h1 className="text-4xl lg:text-6xl font-bold">Find your <span className="text-yellow">greeny</span> stuff for <br /> your room</h1>
                                 <div className="w-20 h-2 bg-yellow my-4" />
@@ -32,7 +32,7 @@ export const Abouts = () => {
                         </header>
                     </div>
                 </div>
-                <div style={{ width: '100%', maxWidth: '400px' }}>
+                <div className='aboutImagecls'>
                     <img src="/assets/images/Abouts/about-us.jpg" alt="about-us" className="w-full h-48 object-cover sm:h-screen" />
                 </div>
             </div>

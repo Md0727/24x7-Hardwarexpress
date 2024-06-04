@@ -49,7 +49,7 @@ export const Register = () => {
         e.preventDefault()
         if (fullname === '') {
             toast.error('Full Name field is required')
-        }else if (mobileNo === '') {
+        } else if (mobileNo === '') {
             toast.error('mobileNo field is required')
         } else if (password === '') {
             toast.error('Password field is required')
@@ -82,13 +82,13 @@ export const Register = () => {
                                 </div>
                                 <div>
                                     <label htmlFor="" className="text-base font-medium text-gray-900">
-                                        mobileNo
+                                        Email address
                                     </label>
                                     <div className="mt-2">
                                         <input
                                             className="flex h-10 w-full rounded-md border border-gray-300 bg-transparent px-3 py-2 text-sm placeholder:text-gray-400 focus:outline-none focus:ring-1 focus:ring-gray-400 focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50"
                                             type="text"
-                                            placeholder="mobileNo"
+                                            placeholder="Email address"
                                             onChange={(e) => setMobileNo(e.target.value)}
                                             value={mobileNo}
                                         ></input>

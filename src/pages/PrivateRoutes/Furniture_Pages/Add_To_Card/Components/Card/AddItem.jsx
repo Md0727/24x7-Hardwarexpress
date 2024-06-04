@@ -108,7 +108,7 @@ const AddItem = ({ Product, GetCartFun1 }) => {
    };
 
    return (
-      <div className="mb-2 flex">
+      <div className="mb-2 sm:flex">
          <div className="min-w-24 flex">
             {
                IsLoading && (

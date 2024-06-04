@@ -53,35 +53,6 @@
   max-width: 353px;
 }
 
-@media screen and (max-width : 600px) {
-  .TwoImage {
-    padding: 0;
-    max-width: 146px;
-    width: 100%;
-    height: 142px;
-    flex-shrink: 0;
-  }
-
-  .firstImage {
-    padding: 0;
-    max-width: 194px;
-    width: 100%;
-    height: 350px;
-    flex-shrink: 0;
-  }
-
-  .ThreeImage {
-    max-width: 186px;
-    width: 100%;
-    height: 186px;
-    flex-shrink: 0;
-  }
-
-  .css-1fvqjm9-MuiAutocomplete-root {
-    width: 100% !important;
-  }
-}
-
 .css-1fvqjm9-MuiAutocomplete-root {
   padding: 0 !important;
 }
@@ -251,4 +222,41 @@ button[aria-label="Close"] svg {
   width: 100%;
   max-width: 100px;
   padding: 0;
+}
+.aboutImagecls {
+  width: '100%';
+  max-width: '400px'
+}
+
+@media screen and (max-width : 600px) {
+  .TwoImage {
+    padding: 0;
+    max-width: 146px;
+    width: 100%;
+    height: 142px;
+    flex-shrink: 0;
+  }
+
+  .firstImage {
+    padding: 0;
+    max-width: 194px;
+    width: 100%;
+    height: 350px;
+    flex-shrink: 0;
+  }
+
+  .ThreeImage {
+    max-width: 186px;
+    width: 100%;
+    height: 186px;
+    flex-shrink: 0;
+  }
+
+  .css-1fvqjm9-MuiAutocomplete-root {
+    width: 100% !important;
+  }
+  .aboutImagecls {
+    width: 100%;
+    height: 100%;
+  }
 }
